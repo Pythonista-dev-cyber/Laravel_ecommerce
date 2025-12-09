@@ -1,0 +1,50 @@
+@extends('layouts.frontend-master')
+
+@section('contents')
+
+            <!-- Begin Login Content Area -->
+            <div class="page-section mb-60">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 mb-30">
+                            <form action="{{ route('register') }}" method="post">
+                                @csrf
+
+                                <div class="login-form">
+                                    <h4 class="login-title">Register</h4>
+                                    <div class="row">
+                                        <div class="col-md-12 col-12 mb-20">
+                                            <label>Full Name</label>
+                                            <input class="mb-0" name="name" type="text" placeholder="Full Name">
+                                        </div>
+
+                                        <div class="col-md-12 mb-20">
+                                            <label>Email Address*</label>
+                                            <input class="mb-0" name="email" type="email" placeholder="Email Address">
+                                        </div>
+                                        <div class="col-md-6 mb-20">
+                                            <label>Password</label>
+                                            <input class="mb-0" name="password" type="password" placeholder="Password">
+                                        </div>
+                                        <div class="col-md-6 mb-20">
+                                            <label>Confirm Password</label>
+                                            <input class="mb-0" type="password" name="password_confirmation" placeholder="Confirm Password">
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="register-button mt-0">Register</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Login Content Area End Here -->
+
+@endsection
