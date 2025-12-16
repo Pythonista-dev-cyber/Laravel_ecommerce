@@ -35,7 +35,7 @@ A fully functional e-commerce web application built using Laravel. The applicati
    ```
 4. install composer with
    ```bash
-    composer install
+   composer install
    ```
 5. generate key with
     ```bash
@@ -43,17 +43,17 @@ A fully functional e-commerce web application built using Laravel. The applicati
    ```
 6. install npm package manager
    ```bash
-    npm install
+   npm install
    ```
 7. Implement the data into the dataabase tables with
    ```bash
-    php artisan migrate
+   php artisan migrate
    ```
 
-8.Run the php server on port 8000
+8. Run the php server on port 8000
 
 ```bash
-    php artisan serv
+php artisan serv
 ```
 
 9. go to your browser -> on the address bar, type localhost:8000 and there you go!
