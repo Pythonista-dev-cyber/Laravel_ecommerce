@@ -28,7 +28,7 @@ A fully functional e-commerce web application built using Laravel. The applicati
 
 ## How to Run
 1. open cmd with win + r and type cmd
-2. choose a directeory and create a folder 
+2. choose a directory and create a folder 
 3. Clone the project with
    ```bash
    git clone https://github.com/Pythonista-dev-cyber/Laravel_ecommerce.git
@@ -45,7 +45,7 @@ A fully functional e-commerce web application built using Laravel. The applicati
    ```bash
    npm install
    ```
-7. Implement the data into the dataabase tables with
+7. Implement the data into the database tables with
    ```bash
    php artisan migrate
    ```
