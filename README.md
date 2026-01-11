@@ -27,7 +27,7 @@ A fully functional e-commerce web application built using Laravel. The applicati
   - Responsive UI for desktop and mobile
 
 ## How to Run
-1. opne cmd with win + r and type cmd
+1. open cmd with win + r and type cmd
 2. choose a directeory and create a folder 
 3. Clone the project with
    ```bash
